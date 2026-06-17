@@ -20,6 +20,10 @@ body {
 /* Navigation */
 nav {
   /* 3. Make the navbar stick to the top of the page when scrolling (2 marks) */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   background: white;
   display: flex;
   justify-content: space-between;
@@ -40,6 +44,19 @@ nav ul {
 }
 
 /* 4. Style the navigation links (font, spacing, color, hover) (2 marks) */
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: 0.3;
+}
+
+nav ul li a:hover {
+    color: #e63946;
+}
+
+
 
 
 /* Hero Section */
