@@ -60,6 +60,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   /* 5. Add and center a background image (2 marks) */
+  background: url(mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg) center;
   color: white;
   text-align: center;
   padding: 6rem 2rem;
@@ -67,12 +68,15 @@ nav ul li a:hover {
 
 .hero h1 {
   /* 6. Set font size equal to 25px using rem units (1 mark) */
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .hero p {
   margin-top: 1rem;
   /* 7. Set font size equal to 20px using rem units (1 mark) */
+  font-size: 2rem;
+
 }
 
 /* Section Base */
@@ -87,6 +91,7 @@ section {
   font-size: 3.2rem;
   margin-bottom: 2rem;
   /* 8. Make text uppercase (1 mark) */
+  text-transform: uppercase;
   color: #1f2937;
 }
 
@@ -99,6 +104,9 @@ section {
 
 .badge {
   /* 9. Position the badge over the top-right corner of the card (4 marks) */
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
   background: #e63946;
   color: white;
   padding: 0.25rem 0.75rem;
@@ -127,6 +135,14 @@ section {
 .contact-form input,
 .contact-form textarea {
   /* 10. Style form inputs and textarea based on mockup (4 marks) */
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  font-style: inherit;
+  
 }
 
 .contact-form button {
